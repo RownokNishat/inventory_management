@@ -5,6 +5,7 @@
   background-color: var(--white);
   border-bottom: 1px solid #e5e7eb;
   transition: background-color 0.1s;
+  cursor: pointer;
 }
 
 .row:hover {

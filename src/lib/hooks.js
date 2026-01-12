@@ -35,12 +35,40 @@ const formatRelativeDate = (dateString) => {
 };
 
 // Inventory Hooks
+// Helper to build location tree path
+const buildLocationPath = (locationId, locationsTree) => {
+  if (!locationId || !locationsTree) return null;
+
+  // Recursive function to find location and build path
+  const findLocationPath = (nodes, targetId, path = []) => {
+    for (const node of nodes) {
+      const currentPath = [...path, node.name];
+      
+      if (node.id === targetId) {
+        return currentPath;
+      }
+      
+      if (node.children && node.children.length > 0) {
+        const found = findLocationPath(node.children, targetId, currentPath);
+        if (found) return found;
+      }
+    }
+    return null;
+  };
+
+  const path = findLocationPath(locationsTree, locationId);
+  return path ? path.join(" > ") : null;
+};
+
 export const useItems = (
   page = 1,
   pageSize = 10,
   search = "",
   locationId = ""
 ) => {
+  // Get locations tree for building paths
+  const { data: locationsTree } = useLocationsTree();
+
   return useQuery({
     queryKey: ["items", page, pageSize, search, locationId],
     queryFn: () => getItems(page, pageSize, search, locationId),
@@ -48,23 +76,29 @@ export const useItems = (
     retry: false, // Don't retry on 401s
     select: (data) => {
       // Transform API data to UI format
-      const items = (data.items || []).map((item) => ({
-        ...item,
-        // UI expects 'model' but API gives 'assetId' or 'description'
-        model: item.assetId || item.id,
-        // UI expects location string, API gives object
-        location: item.location?.name || "Unknown",
-        subLocation: "", // API doesn't provide subLocation yet
-        // UI expects labels with text/bg tokens
-        labels: (item.labels || []).map((l) => ({
-          text: l.name,
-          bg: l.color || "#eff6ff", // Use color from API or default light blue
-          textCol: "#1e3a8a", // Default dark blue text
-        })),
-        updated: formatRelativeDate(item.updatedAt),
-        // Ensure color exists for placeholder
-        color: "#e0e7ff",
-      }));
+      const items = (data.items || []).map((item) => {
+        const locationPath = buildLocationPath(item.location?.id, locationsTree);
+        
+        return {
+          ...item,
+          // UI expects 'model' but API gives 'assetId' or 'description'
+          model: item.assetId || item.id,
+          // UI expects location string, API gives object
+          location: item.location?.name || "Unknown",
+          // Add location tree path if available
+          locationTree: locationPath,
+          subLocation: "", // API doesn't provide subLocation yet
+          // UI expects labels with text/bg tokens
+          labels: (item.labels || []).map((l) => ({
+            text: l.name,
+            bg: l.color || "#eff6ff", // Use color from API or default light blue
+            textCol: "#1e3a8a", // Default dark blue text
+          })),
+          updated: formatRelativeDate(item.updatedAt),
+          // Ensure color exists for placeholder
+          color: "#e0e7ff",
+        };
+      });
 
       return {
         ...data,
