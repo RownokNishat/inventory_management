@@ -1,0 +1,130 @@
+[
+  {
+    "id": "017874a7-2638-43c2-be75-41674167cc20",
+    "name": "Attic",
+    "description": "",
+    "createdAt": "2026-01-09T19:00:13.429669097Z",
+    "updatedAt": "2026-01-09T19:00:13.429669597Z",
+    "itemCount": 0
+  },
+  {
+    "id": "a6f21210-d736-41ba-9e27-fbfe81465bfe",
+    "name": "Basement",
+    "description": "",
+    "createdAt": "2026-01-09T19:00:13.441333149Z",
+    "updatedAt": "2026-01-09T19:00:13.441333749Z",
+    "itemCount": 0
+  },
+  {
+    "id": "3a2f2b15-be72-41db-abee-f8df9cac9cce",
+    "name": "Bathroom",
+    "description": "",
+    "createdAt": "2026-01-09T19:00:13.412441073Z",
+    "updatedAt": "2026-01-09T19:00:13.412441473Z",
+    "itemCount": 0
+  },
+  {
+    "id": "fa2d689c-b670-4617-99c1-1b5c676f1abd",
+    "name": "Bedroom",
+    "description": "",
+    "createdAt": "2026-01-09T19:00:13.403929462Z",
+    "updatedAt": "2026-01-09T19:00:13.403929962Z",
+    "itemCount": 0
+  },
+  {
+    "id": "3483fd5c-633b-40c6-9b46-459aef729415",
+    "name": "Cafeteria",
+    "description": "Ground floor break room",
+    "createdAt": "2026-01-11T18:23:14.388416861Z",
+    "updatedAt": "2026-01-11T18:23:14.388417061Z",
+    "itemCount": 0
+  },
+  {
+    "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+    "name": "Central Warehouse",
+    "description": "Main storage facility for bulk inventory and logistics",
+    "createdAt": "2026-01-11T17:46:09.181575386Z",
+    "updatedAt": "2026-01-11T17:46:09.181575586Z",
+    "itemCount": 165
+  },
+  {
+    "id": "e3ab3cb2-a3f5-4208-a949-d4ad947f5e6f",
+    "name": "Cold Storage Unit",
+    "description": "Temperature controlled section for perishables",
+    "createdAt": "2026-01-11T18:22:10.545548373Z",
+    "updatedAt": "2026-01-11T18:22:10.545548473Z",
+    "itemCount": 10
+  },
+  {
+    "id": "1e20b942-b7d4-49e4-ab4b-555f28eb5448",
+    "name": "Garage",
+    "description": "",
+    "createdAt": "2026-01-09T19:00:13.37306246Z",
+    "updatedAt": "2026-01-09T19:00:13.37306266Z",
+    "itemCount": 0
+  },
+  {
+    "id": "1f1d6da6-8622-4eff-bce3-66af9232c921",
+    "name": "Headquarters",
+    "description": "Downtown office building, 5 floors",
+    "createdAt": "2026-01-11T18:21:46.37483756Z",
+    "updatedAt": "2026-01-11T18:21:46.37483776Z",
+    "itemCount": 0
+  },
+  {
+    "id": "7ee883ea-5c1b-4ed7-8a82-05d4e290010e",
+    "name": "Heavy Duty Racks",
+    "description": "Row 1-10 for pallets",
+    "createdAt": "2026-01-11T18:22:32.544391153Z",
+    "updatedAt": "2026-01-11T18:22:32.544391353Z",
+    "itemCount": 4
+  },
+  {
+    "id": "e692b180-7c55-448f-a521-56ea3d34563a",
+    "name": "IT Supply Closet",
+    "description": "Locked room on 2nd floor",
+    "createdAt": "2026-01-11T18:22:55.70427984Z",
+    "updatedAt": "2026-01-11T18:22:55.70428004Z",
+    "itemCount": 25
+  },
+  {
+    "id": "69e17373-ed9b-49c3-a475-d2d9b8615fa2",
+    "name": "Kitchen",
+    "description": "",
+    "createdAt": "2026-01-09T19:00:13.393935432Z",
+    "updatedAt": "2026-01-09T19:00:13.393935832Z",
+    "itemCount": 0
+  },
+  {
+    "id": "07840a9a-8eb2-4e6a-979b-2638ae1957ef",
+    "name": "Living Room",
+    "description": "",
+    "createdAt": "2026-01-09T19:00:13.363988342Z",
+    "updatedAt": "2026-01-09T19:00:13.363988842Z",
+    "itemCount": 0
+  },
+  {
+    "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+    "name": "Main Headquarters",
+    "description": "Primary office building, 3 floors, located in downtown",
+    "createdAt": "2026-01-11T17:45:41.305311106Z",
+    "updatedAt": "2026-01-11T17:45:41.305311406Z",
+    "itemCount": 106
+  },
+  {
+    "id": "e0540cc5-7f33-44ec-9a0e-ec46e1cf88e1",
+    "name": "Main Warehouse",
+    "description": "Primary storage facility, Zone A",
+    "createdAt": "2026-01-11T18:21:34.65479606Z",
+    "updatedAt": "2026-01-11T18:21:34.65479626Z",
+    "itemCount": 0
+  },
+  {
+    "id": "70622830-cffa-4a92-b1b4-5fa7ae509600",
+    "name": "Office",
+    "description": "",
+    "createdAt": "2026-01-09T19:00:13.421522391Z",
+    "updatedAt": "2026-01-09T19:00:13.421522891Z",
+    "itemCount": 0
+  }
+]

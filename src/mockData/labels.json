@@ -1,0 +1,66 @@
+[
+  {
+    "id": "f1ad22e4-a8b6-48b1-b6dc-d205619431b9",
+    "name": "Appliances",
+    "description": "",
+    "color": "",
+    "createdAt": "2026-01-09T19:00:13.308280516Z",
+    "updatedAt": "2026-01-09T19:00:13.308280716Z"
+  },
+  {
+    "id": "a013bde5-c589-457f-97be-92def8f100a5",
+    "name": "Electronics",
+    "description": "",
+    "color": "",
+    "createdAt": "2026-01-09T19:00:13.327073461Z",
+    "updatedAt": "2026-01-09T19:00:13.327073561Z"
+  },
+  {
+    "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+    "name": "Electronics",
+    "description": "Computers, monitors, printers, and other IT peripherals",
+    "color": "#0000FF",
+    "createdAt": "2026-01-11T17:44:10.802902046Z",
+    "updatedAt": "2026-01-11T17:44:10.802902246Z"
+  },
+  {
+    "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+    "name": "Furniture",
+    "description": "Large furniture items including desks, chairs, and tables",
+    "color": "#8B4513",
+    "createdAt": "2026-01-11T17:42:53.374205524Z",
+    "updatedAt": "2026-01-11T17:42:53.374205724Z"
+  },
+  {
+    "id": "7500e7bc-e134-44ad-8757-560c8b838cc0",
+    "name": "General",
+    "description": "",
+    "color": "",
+    "createdAt": "2026-01-09T19:00:13.343546875Z",
+    "updatedAt": "2026-01-09T19:00:13.343547075Z"
+  },
+  {
+    "id": "8ec5f03d-c64b-42cf-910c-c97005e18010",
+    "name": "IOT",
+    "description": "",
+    "color": "",
+    "createdAt": "2026-01-09T19:00:13.317134732Z",
+    "updatedAt": "2026-01-09T19:00:13.317134932Z"
+  },
+  {
+    "id": "569cd54b-7fa4-4520-b791-009717b06835",
+    "name": "Important",
+    "description": "",
+    "color": "",
+    "createdAt": "2026-01-09T19:00:13.356296842Z",
+    "updatedAt": "2026-01-09T19:00:13.356297042Z"
+  },
+  {
+    "id": "f08018b6-b323-40e6-b409-c5d93eeff808",
+    "name": "Servers",
+    "description": "",
+    "color": "",
+    "createdAt": "2026-01-09T19:00:13.335307868Z",
+    "updatedAt": "2026-01-09T19:00:13.335308568Z"
+  }
+]

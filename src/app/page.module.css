@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.leftPanel {
+  flex: 1;
+  display: none;
+}
+
+.rightPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: var(--white); /* Ensure solid white background */
+  position: relative;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 440px; /* Use a slightly wider container for better proportions */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  background-color: var(--primary-blue);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  color: var(--white);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.card {
+  background: var(--white);
+  padding: 32px; /* Add padding for card look if desired, or keep flat */
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f3f4f6;
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: var(--text-main);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.forgotPassword {
+  font-size: 14px;
+  color: var(--primary-blue);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.registerLink {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.registerLink span {
+  color: var(--primary-blue);
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  width: 100%;
+}
+
+.footerLinks {
+  margin-top: 8px;
+}
+
+.footerLinks span {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+@media (max-width: 640px) {
+  .rightPanel {
+    padding: 24px;
+  }
+  
+  .card {
+    padding: 24px 16px;
+    border: none;
+    box-shadow: none;
+  }
+
+  .footer {
+    position: static;
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .leftPanel {
+    display: block;
+  }
+}

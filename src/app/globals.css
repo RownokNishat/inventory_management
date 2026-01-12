@@ -1,0 +1,28 @@
+:root {
+  --primary-blue: #3b82f6;
+  --primary-blue-hover: #2563eb;
+  --bg-sidebar: #e0e7ff; /* approx light blue */
+  --bg-page: #f3f4f6;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --border-input: #d1d5db;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+  color: var(--text-main);
+  background-color: var(--bg-page);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, button {
+  font-family: inherit;
+}
+

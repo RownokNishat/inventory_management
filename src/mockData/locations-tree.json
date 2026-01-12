@@ -1,0 +1,100 @@
+[
+  {
+    "id": "017874a7-2638-43c2-be75-41674167cc20",
+    "name": "Attic",
+    "type": "location",
+    "children": []
+  },
+  {
+    "id": "a6f21210-d736-41ba-9e27-fbfe81465bfe",
+    "name": "Basement",
+    "type": "location",
+    "children": []
+  },
+  {
+    "id": "3a2f2b15-be72-41db-abee-f8df9cac9cce",
+    "name": "Bathroom",
+    "type": "location",
+    "children": []
+  },
+  {
+    "id": "fa2d689c-b670-4617-99c1-1b5c676f1abd",
+    "name": "Bedroom",
+    "type": "location",
+    "children": []
+  },
+  {
+    "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+    "name": "Central Warehouse",
+    "type": "location",
+    "children": []
+  },
+  {
+    "id": "1e20b942-b7d4-49e4-ab4b-555f28eb5448",
+    "name": "Garage",
+    "type": "location",
+    "children": []
+  },
+  {
+    "id": "1f1d6da6-8622-4eff-bce3-66af9232c921",
+    "name": "Headquarters",
+    "type": "location",
+    "children": [
+      {
+        "id": "3483fd5c-633b-40c6-9b46-459aef729415",
+        "name": "Cafeteria",
+        "type": "location",
+        "children": []
+      },
+      {
+        "id": "e692b180-7c55-448f-a521-56ea3d34563a",
+        "name": "IT Supply Closet",
+        "type": "location",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "69e17373-ed9b-49c3-a475-d2d9b8615fa2",
+    "name": "Kitchen",
+    "type": "location",
+    "children": []
+  },
+  {
+    "id": "07840a9a-8eb2-4e6a-979b-2638ae1957ef",
+    "name": "Living Room",
+    "type": "location",
+    "children": []
+  },
+  {
+    "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+    "name": "Main Headquarters",
+    "type": "location",
+    "children": []
+  },
+  {
+    "id": "e0540cc5-7f33-44ec-9a0e-ec46e1cf88e1",
+    "name": "Main Warehouse",
+    "type": "location",
+    "children": [
+      {
+        "id": "e3ab3cb2-a3f5-4208-a949-d4ad947f5e6f",
+        "name": "Cold Storage Unit",
+        "type": "location",
+        "children": []
+      },
+      {
+        "id": "7ee883ea-5c1b-4ed7-8a82-05d4e290010e",
+        "name": "Heavy Duty Racks",
+        "type": "location",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "70622830-cffa-4a92-b1b4-5fa7ae509600",
+    "name": "Office",
+    "type": "location",
+    "children": []
+  }
+]

@@ -1,0 +1,712 @@
+{
+  "page": -1,
+  "pageSize": -1,
+  "total": 25,
+  "items": [
+    {
+      "id": "ba9e9015-7504-4885-a4be-e09c9fbc9e95",
+      "assetId": "000-018",
+      "name": "Bookshelf",
+      "description": "5-shelf wooden bookcase",
+      "quantity": 4,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:50:10.48067055Z",
+      "updatedAt": "2026-01-11T17:50:10.48067085Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "870eae61-354a-4b4e-a74d-0fa8e9c32cb2",
+      "assetId": "000-015",
+      "name": "Cisco IP Phone",
+      "description": "VoIP desk phone with display",
+      "quantity": 40,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:53.586307389Z",
+      "updatedAt": "2026-01-11T17:49:53.586307589Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "6aa028bc-1596-4193-9bd7-30f62532c619",
+      "assetId": "000-007",
+      "name": "Conference Table",
+      "description": "12-seater glass top conference table",
+      "quantity": 1,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:06.049438397Z",
+      "updatedAt": "2026-01-11T17:49:06.049438797Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "2091f2f8-3cab-4206-a208-1516b1d478b4",
+      "assetId": "000-003",
+      "name": "Dell 27-inch Monitor",
+      "description": "4K Ultra HD monitor for design team",
+      "quantity": 15,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:48:43.814290795Z",
+      "updatedAt": "2026-01-11T17:48:43.814291095Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "28fc73ad-723b-4509-99b0-6fde72a346c1",
+      "assetId": "000-016",
+      "name": "Desk Lamp",
+      "description": "LED adjustable arm desk lamp",
+      "quantity": 18,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:59.283231344Z",
+      "updatedAt": "2026-01-11T17:49:59.283231644Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "1096d33b-123c-4f4e-809d-db93e4e7b279",
+      "assetId": "000-002",
+      "name": "Ergonomic Mesh Chair",
+      "description": "Black mesh back with adjustable lumbar support",
+      "quantity": 25,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:48:37.1378304Z",
+      "updatedAt": "2026-01-11T17:48:37.1378309Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "0c564272-4dba-4047-9706-1000688e05c9",
+      "assetId": "000-021",
+      "name": "Ethernet Cables (Cat6)",
+      "description": "Box of 50 blue patch cables",
+      "quantity": 5,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T18:25:35.903702581Z",
+      "updatedAt": "2026-01-11T18:25:35.903702881Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "e692b180-7c55-448f-a521-56ea3d34563a",
+        "name": "IT Supply Closet",
+        "description": "Locked room on 2nd floor",
+        "createdAt": "2026-01-11T18:22:55.70427984Z",
+        "updatedAt": "2026-01-11T18:22:55.70428004Z"
+      },
+      "labels": [],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "eee64646-5748-412e-9b0d-93efe676568c",
+      "assetId": "000-001",
+      "name": "Executive Office Desk",
+      "description": "L-shaped mahogany desk with built-in drawers",
+      "quantity": 10,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:48:28.743837473Z",
+      "updatedAt": "2026-01-11T17:48:28.743837773Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "ed139988-ce6a-4393-9567-3f5154064ca0",
+      "assetId": "000-020",
+      "name": "Extension Cord",
+      "description": "6-outlet surge protector power strip",
+      "quantity": 50,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:50:22.128828359Z",
+      "updatedAt": "2026-01-11T17:50:22.128828659Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "ec4947bf-0ad8-4424-a77b-911d733d72b9",
+      "assetId": "000-011",
+      "name": "Filing Cabinet",
+      "description": "4-drawer vertical metal filing cabinet",
+      "quantity": 6,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:30.761153137Z",
+      "updatedAt": "2026-01-11T17:49:30.761153337Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "dd4a96b6-cf2e-46f3-84b4-cf778fef90f5",
+      "assetId": "000-024",
+      "name": "Forklift Battery",
+      "description": "Rechargeable Li-ion battery pack",
+      "quantity": 2,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T18:26:57.456006602Z",
+      "updatedAt": "2026-01-11T18:26:57.456006902Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "7ee883ea-5c1b-4ed7-8a82-05d4e290010e",
+        "name": "Heavy Duty Racks",
+        "description": "Row 1-10 for pallets",
+        "createdAt": "2026-01-11T18:22:32.544391153Z",
+        "updatedAt": "2026-01-11T18:22:32.544391353Z"
+      },
+      "labels": [],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "4fc47c7d-6f97-4200-8dea-2370105670c8",
+      "assetId": "000-025",
+      "name": "Forklift Battery",
+      "description": "Rechargeable Li-ion battery pack",
+      "quantity": 2,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T19:25:05.526224285Z",
+      "updatedAt": "2026-01-11T19:25:05.526224485Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "7ee883ea-5c1b-4ed7-8a82-05d4e290010e",
+        "name": "Heavy Duty Racks",
+        "description": "Row 1-10 for pallets",
+        "createdAt": "2026-01-11T18:22:32.544391153Z",
+        "updatedAt": "2026-01-11T18:22:32.544391353Z"
+      },
+      "labels": [],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "103a941d-6abc-499b-9f37-ca45b38bae62",
+      "assetId": "000-023",
+      "name": "Industrial Coolant",
+      "description": "5 Gallon drums",
+      "quantity": 10,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T18:26:24.782880025Z",
+      "updatedAt": "2026-01-11T18:26:24.782880325Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "e3ab3cb2-a3f5-4208-a949-d4ad947f5e6f",
+        "name": "Cold Storage Unit",
+        "description": "Temperature controlled section for perishables",
+        "createdAt": "2026-01-11T18:22:10.545548373Z",
+        "updatedAt": "2026-01-11T18:22:10.545548473Z"
+      },
+      "labels": [],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "368d108b-ab3a-438b-a64a-0e4875b02b57",
+      "assetId": "000-005",
+      "name": "LaserJet Pro Printer",
+      "description": "Networked color laser printer for general office use",
+      "quantity": 2,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:48:55.58178781Z",
+      "updatedAt": "2026-01-11T17:48:55.58178811Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "c331ac5b-33d5-4636-b788-51f8fbf84f4b",
+      "assetId": "000-009",
+      "name": "MacBook Pro 16",
+      "description": "M1 Max chip, 32GB RAM for developers",
+      "quantity": 12,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:18.388994986Z",
+      "updatedAt": "2026-01-11T17:49:18.388995286Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "cb691e95-3908-436e-880d-425e081ce11a",
+      "assetId": "000-013",
+      "name": "Meeting Room Projector",
+      "description": "1080p HD Projector ceiling mounted",
+      "quantity": 4,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:42.097318904Z",
+      "updatedAt": "2026-01-11T17:49:42.097319104Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "757b0c01-4a3e-426a-a90a-d28bbf1ba73e",
+      "assetId": "000-014",
+      "name": "Office Sofa",
+      "description": "2-seater leather sofa for reception",
+      "quantity": 2,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:48.221717775Z",
+      "updatedAt": "2026-01-11T17:49:48.221718075Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "2de2afae-596f-45dc-8bc3-c1ce4c3f943b",
+      "assetId": "000-012",
+      "name": "Paper Shredder",
+      "description": "Cross-cut heavy duty shredder",
+      "quantity": 3,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:36.202352078Z",
+      "updatedAt": "2026-01-11T17:49:36.202352378Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "cf7f14ba-a11a-48fa-bb71-51f3ce8741d4",
+      "assetId": "000-022",
+      "name": "Spare Keyboards",
+      "description": "Standard USB wired keyboards",
+      "quantity": 20,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T18:25:48.646508323Z",
+      "updatedAt": "2026-01-11T18:25:48.646508623Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "e692b180-7c55-448f-a521-56ea3d34563a",
+        "name": "IT Supply Closet",
+        "description": "Locked room on 2nd floor",
+        "createdAt": "2026-01-11T18:22:55.70427984Z",
+        "updatedAt": "2026-01-11T18:22:55.70428004Z"
+      },
+      "labels": [],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "07844f37-23ca-4df2-835d-18730093f502",
+      "assetId": "000-006",
+      "name": "Standing Desk Converter",
+      "description": "Adjustable height desk riser",
+      "quantity": 8,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:00.608862669Z",
+      "updatedAt": "2026-01-11T17:49:00.608862969Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "d9182dac-4053-422d-bdb3-b2a0e1cbd923",
+      "assetId": "000-010",
+      "name": "USB-C Docking Station",
+      "description": "Universal dock with HDMI and Ethernet",
+      "quantity": 20,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:24.257844688Z",
+      "updatedAt": "2026-01-11T17:49:24.257844888Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "444e1050-d435-41f3-b124-89c224fcc66d",
+      "assetId": "000-017",
+      "name": "Water Dispenser",
+      "description": "Hot and cold water floor unit",
+      "quantity": 2,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:50:04.879480711Z",
+      "updatedAt": "2026-01-11T17:50:04.879481211Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "b996bb09-319a-41ad-87a6-ea26341fb95a",
+      "assetId": "000-019",
+      "name": "Webcam HD",
+      "description": "1080p webcam for remote meetings",
+      "quantity": 14,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:50:16.534848018Z",
+      "updatedAt": "2026-01-11T17:50:16.534848818Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "c7c7cd85-c56d-459d-a73f-31dd16edee59",
+        "name": "Main Headquarters",
+        "description": "Primary office building, 3 floors, located in downtown",
+        "createdAt": "2026-01-11T17:45:41.305311106Z",
+        "updatedAt": "2026-01-11T17:45:41.305311406Z"
+      },
+      "labels": [
+        {
+          "id": "c7b445d0-438d-475f-b486-16cfd414dced",
+          "name": "Furniture",
+          "description": "Large furniture items including desks, chairs, and tables",
+          "color": "#8B4513",
+          "createdAt": "2026-01-11T17:42:53.374205524Z",
+          "updatedAt": "2026-01-11T17:42:53.374205724Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "10af109d-a094-48a6-bff7-50eb4c043e04",
+      "assetId": "000-008",
+      "name": "Whiteboard 6x4",
+      "description": "Magnetic dry erase board with tray",
+      "quantity": 5,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:49:12.419855182Z",
+      "updatedAt": "2026-01-11T17:49:12.419855382Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": "bf01a9e7-51b4-4862-99dd-b486e98f6265",
+      "assetId": "000-004",
+      "name": "Wireless Keyboard",
+      "description": "Logitech MX Keys Advanced Wireless",
+      "quantity": 30,
+      "insured": false,
+      "archived": false,
+      "createdAt": "2026-01-11T17:48:49.509494301Z",
+      "updatedAt": "2026-01-11T17:48:49.509494601Z",
+      "purchasePrice": 0,
+      "location": {
+        "id": "29ce109c-5c7f-417d-9dbe-ac6772adec54",
+        "name": "Central Warehouse",
+        "description": "Main storage facility for bulk inventory and logistics",
+        "createdAt": "2026-01-11T17:46:09.181575386Z",
+        "updatedAt": "2026-01-11T17:46:09.181575586Z"
+      },
+      "labels": [
+        {
+          "id": "52c8e06d-f51a-4f2b-8c7e-8bc0f8ee21aa",
+          "name": "Electronics",
+          "description": "Computers, monitors, printers, and other IT peripherals",
+          "color": "#0000FF",
+          "createdAt": "2026-01-11T17:44:10.802902046Z",
+          "updatedAt": "2026-01-11T17:44:10.802902246Z"
+        }
+      ],
+      "soldTime": "0001-01-01T00:00:00Z"
+    }
+  ]
+}

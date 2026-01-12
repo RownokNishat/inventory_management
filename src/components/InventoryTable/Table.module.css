@@ -1,0 +1,43 @@
+.tableContainer {
+  background-color: var(--white);
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin: 24px 32px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+  .tableContainer {
+    margin: 16px;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  min-width: 800px;
+}
+
+/* Column Widths matching row */
+.colCheck { width: 48px; }
+.colItem { flex: 2; }
+.colLocation { flex: 1.5; }
+.colLabels { flex: 1.5; }
+.colQty { width: 100px; }
+.colUpdated { width: 120px; }
+.colActions { width: 60px; text-align: right; }
+
+.body {
+  background-color: var(--white);
+  min-width: 800px;
+}
